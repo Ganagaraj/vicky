@@ -29,6 +29,8 @@ async function add(data) {
             err);
     } finally {
         await client.close();
+		
+		System.out.println("CHINNAVAR"); 
     }
 
 }
